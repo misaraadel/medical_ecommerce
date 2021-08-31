@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--start the meta tags-->
+        <!--meta tag for utf-8 code for ar and en-->
+        <meta charset="utf-8">
+        <!--meta tag for description of website-->
+        <meta name="description" content="....">
+        <!--meta tag for the author of website-->
+        <meta name="author" content="misara adel">
+        <!--meta tag for make website compatible with all screen devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--end the meta tags-->
+        <!--title tag for website appear in tab-->
+        <title>Medica </title>
+        <!-- the style link for image icon-->
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon"/>
+        <!--start the intialize of css library files-->
+        <!--the intilize of fontawsome lib-->
+        <link  rel="stylesheet" href="assets/css/lib/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+        <!--the intilize of bootstrap en version lib-->
+        <!-- <link rel="stylesheet" href="assets/css/lib/bootstrap.css"> -->
+        <!--the intilize of bootstrap ar version lib-->
+        <link rel="stylesheet" href="assets/css/lib/bootstrap-rtl.min.css">
+        <!--the intilize of owl carousel lib-->
+        <link rel="stylesheet" href="assets/css/lib/owl.carousel.min.css">
+        <!--the intilize of dots that appear with owl carousel -->
+        <link rel="stylesheet" href="assets/css/lib/owl.theme.default.css">
+        <link rel="stylesheet" href="assets/css/lib/flipdown.css">
+        <!--end the intialize of css library files-->
+        <!--start the intilalize of css files -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--the media file screen -->
+        <link rel="stylesheet" href="assets/css/media.css">
+        <!--end the intilalize of css files-->
+    </head>
+    <body>
+        <!--start nav-->
+        <nav class="nav ">
+            <div class="top-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="mail-content">
+                                <li>
+                                    <i class="fas fa-envelope-open-text"></i>
+                                    <a href="#">support@admin.com</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    <a href="#">مكان المتجر</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="hotline">
+                                <li>
+                                    <span>الخط الساخن : </span>
+                                    <a href="#">33445</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-8">
+                            <div class="nav-toggler">
+                                <div class="hamburger" id="hamburger-6">
+                                    <span class="line"></span>
+                                    <span class="line"></span>
+                                    <span class="line"></span>
+                                </div>
+                                <a href="index.html" class="image-content">
+                                    <img src="assets/images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ol-lg-6 col-md-6 col-4">
+                            <ul class="button-groups">
+                                <li>
+                                    <div class="form">
+                                        <input class="search-input" type="text" placeholder="ابحث عن ما تريد">
+                                        <a href="#" class="search-bnt">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="dropdown profile-dropdown"> 
+                                    <a class="dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="far fa-user"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="userDropdown">
+                                        <div class="profile-name">
+                                            <div class="image-content">
+                                                <img src="assets/images/profile_man.png" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <a href="profile.html">john deo</a>
+                                            </div>
+                                        </div>
+                                        <ul class="profile-data">
+                                            <li>
+                                                <a href="profile.html">
+                                                    <i class="far fa-user-circle"></i>
+                                                    <span>الحساب</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="profile.html">
+                                                    <i class="fas fa-user-cog"></i>
+                                                    <span>الاعدادات</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="login.html">
+                                                    <i class="fas fa-sign-out-alt"></i>
+                                                    <span>تسجيل الخروج</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="favorite.html">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li class="dropdown cart-shape">
+                                    <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-cart-plus"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="content">
+                                            <h6 class="heading">محتوي السله :- <span>3</span></h6>
+                                        </div>
+                                        <ul class="data">
+                                            <li class="item">
+                                                <div class="item-image">
+                                                    <img src="assets/images/product_1.png" alt="">
+                                                </div>
+                                                <div class="item-content">
+                                                    <h6>اسم المنتج  </h6>
+                                                    <p>9.30 $ </p>
+                                                </div>
+                                                <a class="item-close" href="#">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <div class="item-image">
+                                                    <img src="assets/images/product_2.png" alt="">
+                                                </div>
+                                                <div class="item-content">
+                                                    <h6>اسم المنتج  </h6>
+                                                    <p>11.30 $ </p>
+                                                </div>
+                                                <a class="item-close" href="#">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item">
+                                                <div class="item-image">
+                                                    <img src="assets/images/product_3.png" alt="">
+                                                </div>
+                                                <div class="item-content">
+                                                    <h6>اسم المنتج  </h6>
+                                                    <p>15.30 $ </p>
+                                                </div>
+                                                <a class="item-close" href="#">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="buttons-contain">
+                                            <a href="cart.html" class="custom-btn black-btn">معاينه السله</a>
+                                            <a href="checkout.html" class="custom-btn blue-btn">الدفع</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-12">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                      <h2 class="mb-0">
+                                        <span class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <span><i class="fas fa-bars"></i></span>
+                                            جيمع الاقسام
+                                        </span>
+                                      </h2>
+                                    </div>
+                                    <div id="collapseTwo" class=" categories-collapse collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul class="data">
+                                                <li>
+                                                    <a href="products.html">
+                                                        <span>
+                                                            <i class="fas fa-stethoscope"></i>
+                                                        </span>
+                                                        ادوات طبية
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="products.html">
+                                                        <span>
+                                                            <i class="fas fa-medkit"></i>
+                                                        </span>
+                                                        صيدليات 
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="products.html">
+                                                        <span>
+                                                            <i class="fas fa-capsules"></i>
+                                                        </span>
+                                                        ادويه عامه
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="products.html">
+                                                        <span>
+                                                            <i class="fas fa-microscope"></i>
+                                                        </span>
+                                                        معدات
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="products.html">
+                                                        <span>
+                                                            <i class="fas fa-head-side-mask"></i>
+                                                        </span>
+                                                        ماسكات للوجهه 
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-12">
+                            <ul class="nav-items">
+                                <li>
+                                    <a href="index.html">الرئيسيه</a>
+                                </li>
+                                <li>
+                                    <a href="who_us.html">
+                                        من نحن
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="products.html">
+                                        المنتاجات
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="products.html">
+                                        احدث العروض
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact_us.html">
+                                        تواصل معنا 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--start main-->
+        <main>
+            <section class="header">
+                <div class="container">
+                    <h4>الملف الشخصي</h4>
+                    <ul>
+                        <li>
+                            <a href="#">الرئيسيه</a>
+                        </li>
+                        <li>
+                            <span>الملف الشخصي</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Start profile-pg-->
+            <section class="profile-pg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="side-nav">
+                                <div class="profile-img"> <img src="assets/images/avatar.jpg" alt="user-pic">
+                                    <h6>Jacob Smith</h6>
+                                </div>
+                                <div class="links">
+                                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <a class="nav-link active" id="v-pills-tab1-tab" data-toggle="pill" href="#v-pills-tab1" role="tab" aria-controls="v-pills-tab1" aria-selected="false">
+                                            <i class="far fa-edit"></i> البيانات الشخصيه
+                                        </a>
+                                        <a class="nav-link" id="v-pills-tab2-tab" data-toggle="pill" href="#v-pills-tab2" role="tab" aria-controls="v-pills-tab2" aria-selected="false">
+                                            <i class="fas fa-map-marker-alt"></i> بيانات العنوان
+                                        </a>
+                                        <a class="nav-link" id="v-pills-tab3-tab" data-toggle="pill" href="#v-pills-tab3" role="tab" aria-controls="v-pills-tab3" aria-selected="false">
+                                            <i class="far fa-bell"></i> الاشعارات
+                                        </a>
+                                        <a class="nav-link" id="v-pills-tab4-tab" data-toggle="pill" href="#v-pills-tab4" role="tab" aria-controls="v-pills-tab4" aria-selected="false">
+                                            <i class="fas fa-shopping-bag"></i> الطلبات
+                                        </a>
+                                    </div>
+
+                                </div>                            
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-tab1" role="tabpanel" aria-labelledby="v-pills-tab1-tab">
+                                    <div class="tab-wrapper info-tab">
+                                        <div class="sec-heading">
+                                            <h4>البيانات الشخصيه</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>الاسم بالكامل</h6>
+                                                    <p class="text">John Smith</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>البريد الالكتروني</h6>
+                                                    <p class="text">test-mail@Gmail.com</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>الهاتف</h6>
+                                                    <p class="text">01234567895</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>النوع</h6>
+                                                    <p class="text">أنثى</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button type="button" class="main-butn" data-toggle="modal" data-target="#infoModal">تعديل البيانات</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-tab2" role="tabpanel" aria-labelledby="v-pills-tab2-tab">
+                                    <div class="tab-wrapper info-tab">
+                                        <div class="sec-heading">
+                                            <h4> بيانات العنوان</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>الدوله</h6>
+                                                    <p class="text">مصر</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>المدينه</h6>
+                                                    <p class="text">القاهره</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>العنوان</h6>
+                                                    <p class="text">تفاصيل العنوان هنا ...</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="info-content">
+                                                    <h6>الرقم البريدي</h6>
+                                                    <p class="text">1234</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button type="button" class="main-butn" data-toggle="modal" data-target="#addressModal">تعديل البيانات</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-tab3" role="tabpanel" aria-labelledby="v-pills-tab3-tab">
+                                    <div class="tab-wrapper notifications-tab">
+                                        <div class="sec-heading">
+                                            <h4>الاشعارات</h4>
+
+                                        </div>
+                                        <div class="noti-item mt-3">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <span class="new"></span>
+                                                    <img src="assets/images/product_3.png" alt="" class="noti-img">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h6>Noon Card</h6>
+                                                    <span class="text">طلبك تحت المراجعه </span>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <span class="time">9:35 PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="noti-item mt-3">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <img src="assets/images/product_2.png" alt="" class="noti-img">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h6>Noon Card</h6>
+                                                    <span class="text">طلبك تحت المراجعه </span>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <span class="time">9:35 PM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-tab4" role="tabpanel" aria-labelledby="v-pills-tab4-tab">
+                                    <div class="tab-wrapper orders-tab">
+                                        <div class="sec-heading">
+                                            <h4>الطلبات</h4>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">صورة المنتج</th>
+                                                        <th scope="col" class="d-none-sm">الاسم</th>
+                                                        <th scope="col" class="d-none-md">رقم الطلب</th>
+                                                        <th scope="col" class="d-none-md">التاريخ</th>
+                                                        <th scope="col">التفاصيل</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td><img src="assets/images/product_1.png" alt=""></td>
+                                                        <td class="d-none-sm">اسم المنتج</td>
+                                                        <td class="d-none-md">12542325</td>
+                                                        <td class="d-none-md">11 march 2019</td>
+                                                        <td><a href="#"><i class="fas fa-info-circle"></i></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td><img src="assets/images/product_2.png" alt=""></td>
+                                                        <td class="d-none-sm">اسم المنتج</td>
+                                                        <td class="d-none-md">12542325</td>
+                                                        <td class="d-none-md">11 march 2019</td>
+                                                        <td><a href="#"><i class="fas fa-info-circle"></i></a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td><img src="assets/images/product_3.png" alt=""></td>
+                                                        <td class="d-none-sm">اسم المنتج</td>
+                                                        <td class="d-none-md">12542325</td>
+                                                        <td class="d-none-md">11 march 2019</td>
+                                                        <td><a href="#"><i class="fas fa-info-circle"></i></a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Info Modal-->
+            <div class="modal info-modal fade" id="infoModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">تعديل البيانات</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="image-container"> 
+                                <img src="assets/images/avatar.jpg" alt="user-pic"> 
+                                <input type="file" class="custom-file-input" id="input-profile" required="" capture="">
+                                <button><i class="far fa-edit"></i></button>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>الاسم بالكامل</span>
+                                        </div><input type="text" class="form-control enable-input" value="johan deo">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>البريد الالكتروني</span>
+                                        </div><input type="text" class="form-control enable-input" value="Email@example.com">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>رقم الجوال</span></div>
+                                        <input type="text" class="form-control enable-input" value="+20123456789">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>النوع</span>
+                                        </div>
+                                        <select class="form-control enable-input"> 
+                                            <option>ذكر</option> 
+                                            <option> انثى </option> 
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>كلمة السر</span>
+                                        </div><input type="password" class="form-control enable-input" value="**********">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>إعادة كلمة السر</span>
+                                        </div><input type="password" class="form-control enable-input" value="**********">
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>
+                        <div class="modal-footer"> 
+                            <button type="button" class="main-butn">حفظ</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!--Address Modal-->
+            <div class="modal info-modal fade" id="addressModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">تعديل البيانات</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>الدوله</span> </div>
+                                        <select class="form-control enable-input"> 
+                                            <option>مصر</option> 
+                                            <option> مصر </option> 
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>المدينه</span></div>
+                                        <select class="form-control enable-input"> 
+                                            <option>القاهره</option> 
+                                            <option> القاهره </option> 
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>العنوان</span></div>
+                                        <input type="text" class="form-control enable-input" value="تفاصيل العنوان هنا">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <div class="content"> <span>الرقم البريدي</span></div>
+                                        <input type="text" class="form-control enable-input" value="1234">
+                                    </div>
+                                </div>
+                            </div>                
+                        </div>
+                        <div class="modal-footer"> 
+                            <button type="button" class="main-butn">حفظ</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+        <!--end main-->
+        <footer>
+            <img src="assets/images/pill.png" class="pill-pattern-right" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mb-5">
+                       <div class="content">
+                            <div class="image-content">
+                                <img src="assets/images/logo.png" alt="">
+                            </div>
+                            <p>
+                                هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                            </p>
+                            <ul class="social-media">
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                       </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12 mb-5">
+                        <div class="content">
+                            <h6>المنتاجات</h6>
+                            <ul class="list">
+                                <li>
+                                    <a href="#">الادويه</a>
+                                </li>
+                                <li>
+                                    <a href="#">الفيتامينات </a>
+                                </li>
+                                <li>
+                                    <a href="#">المعدات الطبيه</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        جيمع المنتاجات
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">معدات الدكاتره</a>
+                                </li>
+                                <li>
+                                    <a href="#">عروض الخصومات</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12 mb-5">
+                        <div class="content">
+                            <h6>روابط سريعه</h6>
+                            <ul class="list">
+                                <li>
+                                    <a href="#">الدعم الفني</a>
+                                </li>
+                                <li>
+                                    <a href="#">سياسة الاسترجاع
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">مركز المساعدة</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        سياسة الخصوصيه
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        الشحن والاسترجاع
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-12 mb-5">
+                        <div class="content">
+                            <h6>الدفع الالكتروني</h6>
+                            <p>
+                                ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف 
+                            </p>
+                            <ul class="payment">
+                                <li>    
+                                    <a href="#">
+                                        <img src="assets/images/card_1.png" alt="">
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a href="#">
+                                        <img src="assets/images/card_2.png" alt="">
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a href="#">
+                                        <img src="assets/images/card_3.png" alt="">
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a href="#">
+                                        <img src="assets/images/card_4.png" alt="">
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a href="#">
+                                        <img src="assets/images/card_5.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--loading page-->
+        <div class="loader">
+            <div class="container">
+                 <div class="loading-content">
+                     <div class="drop-water light-blue"></div>
+                     <div class="drop-water light-blue"></div>
+                     <div class="box">
+                         <div class="wave light-blue">
+         
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <!--Scroll to top button-->
+        <a data-scroll href="#" class="scroll-top-btn" id="scroll-btn">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <!--start the intialize of js lib-->
+        <!--first intilize jquery lib-->
+        <script src="assets/js/lib/jquery-3.6.0.min.js"></script>
+        <!--second intialize popper js lib-->
+        <script src="assets/js/lib/popper.js"></script>
+        <!--third intialize bootstrap js lib-->
+        <script src="assets/js/lib/bootstrap.js"></script>
+        <!--intialize owl coursel js lib -->
+        <script src="assets/js/lib/owl.carousel.min.js"></script>
+        <!--end the intialize of js lib-->
+        <!--intialize main js file-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
